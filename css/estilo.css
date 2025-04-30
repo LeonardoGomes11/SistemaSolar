@@ -24,6 +24,10 @@ header h1 {
     font-size: 2.5em;
 }
 
+p {
+    margin-top: 15px; 
+}
+
 
 nav {
     background-color: #003366; 
@@ -73,6 +77,7 @@ section {
 h2, h3 {
     color: #004080;
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 
@@ -105,3 +110,91 @@ footer {
     margin-top: 30px;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
 }
+
+.botao-voltar {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.botaovoltar:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+.gradeplanetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gradeplanetas a {
+    background-color: #004080;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.gradeplanetas a:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+.tituloplanetas {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-contato {
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contato label {
+    font-weight: bold;
+    color: #004080;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.form-contato button {
+    background-color: #004080;
+    color: white;
+    padding: 12px;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.form-contato button:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+
+
+
